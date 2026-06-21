@@ -518,10 +518,10 @@
   <section class="reviews" id="reviews">
     <h2>Отзывы клиентов</h2>
     <div class="review-grid">
-      <div class="review"><div class="stars">★★★★★</div><p>Букет получился очень свежим и красивым. Доставили быстро, упаковка восхитительная!</p><b>Мария</b><small>20 июня</small></div>
-      <div class="review"><div class="stars">★★★★★</div><p>Заказывал сюрприз девушке. Ответили в WhatsApp сразу, всё оформили аккуратно.</p><b>Иван</b><small>18 июня</small></div>
-      <div class="review"><div class="stars">★★★★★</div><p>Цветы простояли долго, фотографии на сайте соответствуют реальности. Спасибо!</p><b>Елена</b><small>16 июня</small></div>
-      <div class="review"><div class="stars">★★★★★</div><p>Хороший сервис и приятные цены. Букет смотрелся даже лучше, чем ожидал.</p><b>Артём</b><small>14 июня</small></div>
+      <div class="review"><div class="stars">★★★★★</div><p>Букет получился очень свежим и красивым. Доставили быстро, упаковка вос[...]
+      <div class="review"><div class="stars">★★★★★</div><p>Заказывал сюрприз девушке. Ответили в WhatsApp сразу, всё оформили аккуратн[...]
+      <div class="review"><div class="stars">★★★★★</div><p>Цветы простояли долго, фотографии на сайте соответствуют реальности. С�[...]
+      <div class="review"><div class="stars">★★★★★</div><p>Хороший сервис и приятные цены. Букет смотрелся даже лучше, чем ожидал.</[...]
     </div>
   </section>
 
@@ -540,30 +540,30 @@
     const WHATSAPP_PHONE = "79280126881";
     
     const FLOWERS = [
-      { id: 1, name: "Букет из пионов", desc: "Нежные пионы в премиальной упаковке", price: 5890, img: "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=400&h=400&fit=crop", category: "flowers" },
-      { id: 2, name: "Белые розы", desc: "Классический букет белых роз", price: 4990, img: "https://images.unsplash.com/photo-1572813237768-c47c6b7bafbb?w=400&h=400&fit=crop", category: "flowers" },
-      { id: 3, name: "Розовый микс", desc: "Микс роз и альстромерий", price: 4490, img: "https://images.unsplash.com/photo-1563241527-3004b5e4b8c0?w=400&h=400&fit=crop", category: "flowers" },
-      { id: 4, name: "Красные розы", desc: "Букет из красных роз премиум-класса", price: 5290, img: "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=400&h=400&fit=crop", category: "flowers" },
-      { id: 5, name: "Нежный букет", desc: "Воздушный букет пастельных оттенков", price: 4990, img: "https://images.unsplash.com/photo-1582794543139-8ac142c4b4f0?w=400&h=400&fit=crop", category: "flowers" },
-      { id: 6, name: "Гербера микс", desc: "Яркие герберы в цветной упаковке", price: 3990, img: "https://images.unsplash.com/photo-1585633244319-48ef92a84bce?w=400&h=400&fit=crop", category: "flowers" },
+      { id: 1, name: "Белые розы 51 шт", desc: "Элегантный букет премиум белых роз в премиальной упаковке. Идеален для торжественных случаев", price: 5890, img: "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=400&h=400&fit=crop" },
+      { id: 2, name: "Розовые розы", desc: "Нежные розовые розы - воплощение женственности и грации. Свежие стебли длиной 60 см", price: 4990, img: "https://images.unsplash.com/photo-1572813237768-c47c6b7bafbb?w=400&h=400&fit=crop" },
+      { id: 3, name: "Букет в крафт-упаковке", desc: "Чудесный букет розовых роз в стильной крафт-упаковке. Современный и модный подарок", price: 4490, img: "https://images.unsplash.com/photo-1563241527-3004b5e4b8c0?w=400&h=400&fit=crop" },
+      { id: 4, name: "Микс букет премиум", desc: "Роскошный микс: красные розы, альстромерии, герберы. Букет мечты для любимой", price: 5290, img: "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=400&h=400&fit=crop" },
+      { id: 5, name: "Нежный букет", desc: "Воздушный букет пастельных оттенков с чувствительной аранжировкой", price: 4990, img: "https://images.unsplash.com/photo-1582794543139-8ac142c4ed9a?w=400&h=400&fit=crop" },
+      { id: 6, name: "Гербера микс", desc: "Яркие герберы в цветной упаковке - букет энергии и позитива", price: 3990, img: "https://images.unsplash.com/photo-1585633244319-48ef92a84bce?w=400&h=400&fit=crop" },
     ];
 
     const STRAWBERRIES = [
-      { id: 21, name: "Клубника в молочном шоколаде", desc: "Сладкая клубника в белом шоколаде", price: 2990, img: "https://images.unsplash.com/photo-1599599810694-f81c88beff7b?w=400&h=400&fit=crop", category: "strawberries" },
-      { id: 22, name: "Клубника в белом шоколаде", desc: "Нежная клубника в белом шоколаде", price: 2590, img: "https://images.unsplash.com/photo-1582794543139-8ac142c4b4f0?w=400&h=400&fit=crop", category: "strawberries" },
-      { id: 23, name: "Ассорти клубники", desc: "Микс клубники в разных видах шоколада", price: 3490, img: "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=400&h=400&fit=crop", category: "strawberries" },
-      { id: 24, name: "Клубника в шоколаде (сердце)", desc: "Романтичный подарок для любимой", price: 3990, img: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=400&fit=crop", category: "strawberries" },
-      { id: 25, name: "Премиум ассорти", desc: "Клубника с орешками и украшениями", price: 3290, img: "https://images.unsplash.com/photo-1558636508-e0db3814bd1d?w=400&h=400&fit=crop", category: "strawberries" },
-      { id: 26, name: "Клубника с топпингом", desc: "Клубника в шоколаде с кокосовой стружкой", price: 2890, img: "https://images.unsplash.com/photo-1587081352562-40142191e542?w=400&h=400&fit=crop", category: "strawberries" },
+      { id: 21, name: "Клубника в молочном шоколаде", desc: "Сладкая клубника в белом шоколаде", price: 2990, img: "https://images.unsplash.com/photo-1585233481261-4a06b8ea1f64?w=400&h=400&fit=crop" },
+      { id: 22, name: "Клубника в белом шоколаде", desc: "Нежная клубника в белом шоколаде", price: 2590, img: "https://images.unsplash.com/photo-1582794543139-8ac142c4ed9a?w=400&h=400&fit=crop" },
+      { id: 23, name: "Ассорти клубники", desc: "Микс клубники в разных видах шоколада", price: 3490, img: "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=400&h=400&fit=crop" },
+      { id: 24, name: "Клубника в шоколаде (сердце)", desc: "Романтичный подарок для любимой", price: 3990, img: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=400&fit=crop" },
+      { id: 25, name: "Премиум ассорти", desc: "Клубника с орешками и украшениями", price: 3290, img: "https://images.unsplash.com/photo-1599599810694-e3eb8f00b8d4?w=400&h=400&fit=crop" },
+      { id: 26, name: "Клубника с топпингом", desc: "Клубника в шоколаде с кокосовой стружкой", price: 2890, img: "https://images.unsplash.com/photo-1571115764595-644a262f8860?w=400&h=400&fit=crop" },
     ];
 
     const TOYS = [
-      { id: 41, name: "Плюшевый мишка", desc: "Классический мишка для любимой", price: 2190, img: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop", category: "toys" },
-      { id: 42, name: "Мишка бежевый", desc: "Мягкий медведь в нейтральных тонах", price: 2390, img: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop", category: "toys" },
-      { id: 43, name: "Белый мишка", desc: "Нежный белый медведь с атласным бантом", price: 2490, img: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop", category: "toys" },
-      { id: 44, name: "Мишка серый", desc: "Стильный серый мишка для подарка", price: 2590, img: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop", category: "toys" },
-      { id: 45, name: "Мишка с сердцем", desc: "Романтичный мишка с валентинкой", price: 2290, img: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop", category: "toys" },
-      { id: 46, name: "Плюшевый зайка", desc: "Нежный зайка для любимой", price: 1990, img: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop", category: "toys" },
+      { id: 41, name: "Плюшевый мишка", desc: "Классический мишка для любимой", price: 2190, img: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop" },
+      { id: 42, name: "Мишка бежевый", desc: "Мягкий медведь в нейтральных тонах", price: 2390, img: "https://images.unsplash.com/photo-1573308396961-59d8d9c5a2c6?w=400&h=400&fit=crop" },
+      { id: 43, name: "Белый мишка", desc: "Нежный белый медведь с атласным бантом", price: 2490, img: "https://images.unsplash.com/photo-1585399634281-88c4e4ee8a2f?w=400&h=400&fit=crop" },
+      { id: 44, name: "Мишка серый", desc: "Стильный серый мишка для подарка", price: 2590, img: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop" },
+      { id: 45, name: "Мишка с сердцем", desc: "Романтичный мишка с валентинкой", price: 2290, img: "https://images.unsplash.com/photo-1585399634281-88c4e4ee8a2f?w=400&h=400&fit=crop" },
+      { id: 46, name: "Плюшевый зайка", desc: "Нежный зайка для любимой", price: 1990, img: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop" },
     ];
 
     const state = {
@@ -666,7 +666,7 @@
         const p = allProducts.find(x => x.id === i.id);
         if(!p) return "";
         total += p.price * i.count;
-        return `<div class="cart-row"><div><b>${p.name}</b><div>${money(p.price * i.count)}</div><div class="qty"><button onclick="changeQty(${p.id}, -1)">−</button><span>${i.count}</span><button onclick="changeQty(${p.id}, 1)">+</button></div></div><button class="buy" onclick="changeQty(${p.id}, -${i.count})">🗑</button></div>`;
+        return `<div class="cart-row"><div><b>${p.name}</b><div>${money(p.price * i.count)}</div><div class="qty"><button onclick="changeQty(${p.id}, -1)">−</button><span>${i.count}</span><button onclick="changeQty(${p.id}, 1)">+</button></div></div></div>`;
       }).join("");
       document.getElementById("total").textContent = money(total);
     }
